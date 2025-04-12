@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Honda promo</title>
+    <link rel="icon" href="img/honda-logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Princess+Sofia&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="img/honda-logo.png"
+        alt="Honda Logo"
+        class="logo"
+        id="hondaLogo"
+      />
+      <div class="loading-bar" id="loadingBar">
+        <div class="loading-bar-fill" id="loadingFill"></div>
+      </div>
+    </div>
+
+    <div class="fly-object" id="flyObject">
+      <!-- Это может быть текст, картинка и т.д. -->
+      <img src="img/PRODUCT.png" alt="PRODUCT" />
+    </div>
+
+    <header class="header" id="header">
+      <!-- Тексты слева -->
+      <a href="#" class="header-link left-text" id="text1">DASHBOARD</a>
+      <a href="#" class="header-link left-text" id="text2">HOME</a>
+      <a href="#" class="header-link left-text" id="text3">DOCUMENT</a>
+
+      <img class="header-logo" src="img/honda-logo.png" alt="Logo" />
+
+      <!-- Иконки справа -->
+      <a href="#" class="header-icon right-icon" id="icon1">
+        <img src="icons/HOME.png" alt="Home" />
+      </a>
+      <a href="#" class="header-icon right-icon" id="icon2">
+        <img src="icons/Lightning Bolt.png" alt="Search" />
+      </a>
+      <a href="#" class="header-icon right-icon" id="icon3">
+        <img src="icons/Motorbike Helmet.png" alt="Settings" />
+      </a>
+      <a href="#" class="header-icon right-icon" id="icon4">
+        <img src="icons/Toggle On.png" alt="Mail" />
+      </a>
+    </header>
+
+    <div class="button-box" id="buttonBox">
+      <button>ORDER NOW</button>
+    </div>
+
+    <!-- СЛЕВА -->
+    <div class="bottom-text up-left-text" id="upLeftText">Marketing at</div>
+    <div class="bottom-text left-text-bottom" id="bottomLeftText">
+      Lorem ipsum dolor sit amet <br />consectetur.
+    </div>
+
+    <!-- СПРАВА -->
+    <div class="bottom-text up-right-text" id="upRightText">Starting at</div>
+    <div class="bottom-text right-text" id="bottomRightText">$40,000</div>
+
+    <!-- Модальное окно -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+
+        <div class="product-row">
+          <div class="product-card">
+            <img src="img/PRODUCT.png" alt="Product 1" />
+            <div class="button-price">
+              <button>Add to Cart</button>
+              <span class="price">999$</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/image-Photoroom (17) 1.png" alt="Product 2" />
+            <div class="button-price">
+              <button>Add to Cart</button>
+              <span class="price">949$</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="img/image-Photoroom (18) 1.png" alt="Product 3" />
+            <div class="button-price">
+              <button>Add to Cart</button>
+              <span class="price">949$</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="modal-text">
+          Lorem ipsum dolor sit amet consectetur. Nibh mauris nec risus
+          adipiscing tincidunt. Etiam malesuada pharetra id praesent odio ornare
+          dapibus. Egestas id sed aenean penatibus at lacus pharetra. Aenean sed
+          est laoreet feugiat arcu cras non.
+        </p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
